@@ -249,7 +249,7 @@ hr {
 		width: 60%;
 	}
 	.hero-title {
-		font-size: 3.5rem;
+		font-size: 2.5rem;
 	}
 
 	.hero-text {
@@ -263,13 +263,15 @@ hr {
 		font-size: 1rem;
 	}
 	.mt-8 {
-		margin-top: 8rem;
+		margin-top: 4rem;
 	}
 	.mobile-card {
 		display: none !important;
 	}
 	.web-card {
 		display: flex;
+		padding-left: 3rem;
+		padding-right: 3rem;
 	}
 }
 
@@ -284,6 +286,9 @@ hr {
 
 	.card-name {
 		font-size: 1.2rem;
+	}
+	.mt-8 {
+		margin-top: 7rem;
 	}
 	.text-area-title,
 	.work-text {

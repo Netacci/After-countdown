@@ -15,7 +15,7 @@ var typed = new Typed('#typed', {
 $('.slider').slick({
 	responsive: [
 		{
-			breakpoint: 480,
+			breakpoint: 700,
 			settings: {
 				slidesToShow: 1,
 				slidesToScroll: 1,
