@@ -147,8 +147,12 @@ a:hover {
 	border-radius: 5px;
 	width: 100%;
 	min-height: 190px;
-	background: #ffffff;
-	opacity: 0.8;
+	background: #fff;
+	/* opacity: 0.8; */
+}
+.week {
+	background: #f5e594;
+	padding: 3rem;
 }
 
 .card-name {
@@ -169,6 +173,16 @@ a:hover {
 	color: var(--blue-color);
 	font-size: 1.3rem;
 	font-weight: bold;
+	position: relative;
+}
+.text-area-title::after {
+	content: '';
+	width: 10%;
+	height: 5px;
+	background-color: #e0be14;
+	position: absolute;
+	left: 0%;
+	top: 100%;
 }
 .firstlogoone {
 	position: absolute;
@@ -179,6 +193,10 @@ a:hover {
 .step-p {
 	color: var(--grey);
 	font-size: 0.775rem;
+}
+.sub-p {
+	font-weight: bold;
+	font-size: 0.875rem;
 }
 
 .step-num {
