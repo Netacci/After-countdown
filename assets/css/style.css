@@ -7,7 +7,9 @@
 
 :root {
 	--white-color: #ffffff;
-	--primary-color: #2f80ed;
+	--primary-color: #2d7ae0;
+	--bg-color: #e5e5e5;
+
 	--blue-color: #0f7bfe;
 	--grey: #333333;
 	--light-dark: #979797;
@@ -67,12 +69,21 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 1px;
+	min-height: 75vh;
+	position: relative;
 }
 .brand-logo {
-	font-size: 1.625rem;
+	width: 60%;
 }
-.firstlogo {
-	width: 75%;
+.firstlogo,
+.secondlogo {
+	width: 100%;
+}
+.logo {
+	width: 86%;
+}
+.logo-picone {
+	width: 56%;
 }
 
 .auth-btns {
@@ -85,15 +96,12 @@ a:hover {
 .nav-link:hover {
 	color: var(--light);
 }
-.logo {
-	width: 60%;
-}
 
 .button {
 	color: var(--white-color);
 	font-weight: bold;
 	transition: all 0.3s linear;
-	border-radius: 5px;
+
 	font-family: 'Barlow', sans-serif;
 	font-size: 0.95rem;
 }
@@ -102,16 +110,11 @@ a:hover {
 	color: var(--white-color);
 }
 
-.signin-btn {
-	border: 1.5px solid var(--white-color);
-}
-
-.signup-btn {
-	background: var(--primary-color);
-}
 .subscribe-btn {
 	background: var(--primary-color);
-	font-family: 'Barlow', sans-serif;
+	width: 30%;
+	border: 2px solid #ffffff;
+	box-shadow: 0px 4px 44px 2px rgba(0, 0, 0, 0.05);
 }
 .subscribe-btn:hover {
 	background: #1472e6;
@@ -121,6 +124,9 @@ a:hover {
 .hero-title {
 	font-weight: bold;
 	font-size: 1.3rem;
+}
+.hero-p {
+	width: 70%;
 }
 
 .hero-text {
@@ -133,41 +139,36 @@ a:hover {
 .mt-8 {
 	margin-top: 3rem;
 }
-.mobile-card {
-	display: flex !important;
-}
+
 .slick-slide img {
 	display: inline-block;
 }
-.web-card {
-	display: none;
+.judge-slide {
+	position: absolute;
+	left: 40%;
+	top: 35%;
+	width: 60%;
 }
-
-.card-info {
-	border-radius: 5px;
-	width: 100%;
-	min-height: 190px;
-	background: #fff;
-	/* opacity: 0.8; */
+.judge-img1 {
+	width: 37%;
 }
-.week {
-	background: #f5e594;
-	padding: 3rem;
+.judge-img2 {
+	width: 38%;
 }
-
-.card-name {
-	font-size: 1rem;
-	font-weight: bold;
-	color: var(--blue-color);
+.judge-img3 {
+	width: 43%;
 }
-.judge-pic {
-	position: relative;
+.judge-img4 {
+	width: 40%;
 }
-.logo-picone {
-	width: 20%;
+/* .slideone {
+	width: 10% !important;
+} */
+/*Hwo it works */
+.hiw {
+	background: var(--white-color);
+	padding: 1px;
 }
-
-/* Intro */
 .text-area-title,
 .work-text {
 	color: var(--blue-color);
@@ -196,7 +197,7 @@ a:hover {
 }
 .sub-p {
 	font-weight: bold;
-	font-size: 0.875rem;
+	font-size: 0.875rema;
 }
 
 .step-num {
@@ -263,9 +264,25 @@ hr {
 }
 
 @media all and (min-width: 768px) {
-	.firstlogo {
-		width: 60%;
+	.brand-logo {
+		width: 40%;
 	}
+	/* .logo-p {
+		margin-left: -43px;
+	}
+
+	.firstlogo,
+	.secondlogo {
+		width: 50%;
+	}
+
+	.logo {
+		width: 66%;
+	}
+	.logo-picone {
+		width: 36%;
+	} */
+
 	.hero-title {
 		font-size: 2.5rem;
 	}
@@ -294,19 +311,25 @@ hr {
 }
 
 @media all and (min-width: 992px) {
-	.firstlogo {
+	/* .firstlogo {
+		width: 30%;
+	} */
+	.brand-logo {
 		width: 30%;
 	}
 	.hero-title {
 		font-weight: bold;
 		font-size: 3.5rem;
 	}
+	.subscribe-btn {
+		width: 50%;
+	}
 
 	.card-name {
 		font-size: 1.2rem;
 	}
 	.mt-8 {
-		margin-top: 7rem;
+		margin-top: 5rem;
 	}
 	.text-area-title,
 	.work-text {
