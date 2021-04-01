@@ -17,13 +17,7 @@
 	--dark-blue: #255fad;
 	--light-white: #f5f5f5;
 	--light: #f1f1f1;
-
-	/* --grey: #333333;
-	--light-dark: #979797;
-	--dark: #3a3a3a;
-	--light: #f1f2f3;
-
-	--light-white: rgba(255, 255, 255, 0.6); */
+	--inner: #2c2b2b;
 }
 
 /* PRELOADER */
@@ -117,6 +111,10 @@ a:hover {
 .subscribe-btn {
 	background: var(--primary-color);
 	border: 2px solid #ffffff;
+	box-shadow: 0px 4px 44px 2px rgba(0, 0, 0, 0.05);
+}
+.started-btn {
+	background: var(--primary-color);
 	box-shadow: 0px 4px 44px 2px rgba(0, 0, 0, 0.05);
 }
 .subscribe-btn:hover {
@@ -247,6 +245,18 @@ a:hover {
 	background-size: cover;
 	padding: 6rem;
 }
+/* Get started */
+.started {
+	background: url(../images/started-banner.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	padding: 1px;
+}
+.started-title {
+	color: var(--white-color);
+	font-weight: bold;
+}
 
 /* FOOTER */
 .footer {
@@ -273,6 +283,12 @@ hr {
 .foot-copy {
 	color: var(--light);
 }
+@media all and (min-width: 600px) {
+	.inner-text {
+		color: var(--inner);
+		font-weight: bold;
+	}
+}
 
 @media all and (min-width: 768px) {
 	.brand-logo {
@@ -297,10 +313,9 @@ hr {
 	.mt-8 {
 		margin-top: 4rem;
 	}
-
-	/* .inner-text {
-		color: rgb(4, 15, 27);
-	} */
+	.started-btn {
+		width: 15%;
+	}
 }
 
 @media all and (min-width: 992px) {
@@ -358,6 +373,9 @@ hr {
 	}
 	.faq-title {
 		font-size: 1.5rem;
+	}
+	.started {
+		background-size: cover;
 	}
 }
 
