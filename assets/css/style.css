@@ -204,6 +204,10 @@ a:hover {
 	position: relative;
 	font-family: 'Mulish', sans-serif;
 }
+.mockup-img {
+	width: 100%;
+	display: block;
+}
 
 /* Steps */
 .step-p {
