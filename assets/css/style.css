@@ -76,9 +76,9 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 1px;
-	min-height: 75vh;
 	position: relative;
 }
+
 .brand-logo {
 	width: 60%;
 }
@@ -312,6 +312,21 @@ hr {
 	.secondheader {
 		margin-top: 5rem;
 	}
+	.judge-slide {
+		top: 40%;
+	}
+	.judge-img1 {
+		width: 46%;
+	}
+	.judge-img2 {
+		width: 48%;
+	}
+	.judge-img3 {
+		width: 54%;
+	}
+	.judge-img4 {
+		width: 49%;
+	}
 	.nav-link {
 		padding: 0.3rem;
 	}
@@ -361,6 +376,24 @@ hr {
 	.work-text {
 		font-size: 3.5rem;
 	}
+	/* .judge-slide {
+		width: 60%;
+	} */
+	.judge-img1 {
+		width: 37%;
+	}
+	.judge-img2 {
+		width: 38%;
+	}
+	.judge-img3 {
+		width: 43%;
+	}
+	.judge-img4 {
+		width: 40%;
+	}
+	.hero {
+		margin-bottom: 6rem;
+	}
 }
 @media all and (min-width: 2400px) {
 	.hero-p {
@@ -368,5 +401,21 @@ hr {
 	}
 	.secondheader {
 		margin-left: 18rem !important;
+	}
+	.judge-img1 {
+		width: 27%;
+	}
+	.judge-img2 {
+		width: 28%;
+	}
+	.judge-img3 {
+		width: 33%;
+	}
+	.judge-img4 {
+		width: 30%;
+	}
+	.judge-slide {
+		left: 45%;
+		top: 35%;
 	}
 }
