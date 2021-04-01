@@ -70,7 +70,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 1px;
-	position: relative;
+	/* position: relative; */
 }
 
 .brand-logo {
@@ -145,15 +145,17 @@ a:hover {
 .slick-slide img {
 	display: inline-block;
 }
-.judge-slide {
+/* .judge-slide {
 	position: absolute;
 	left: 40%;
 	top: 35%;
 	width: 60%;
-}
+} */
 .judge-slide-mobile {
 	top: 85%;
-	left: 30%;
+	left: 0%;
+
+	text-align: center;
 }
 .judge-img1 {
 	width: 70%;
@@ -172,9 +174,9 @@ a:hover {
 }
 
 /*Hwo it works */
-.mt-9 {
+/* .mt-9 {
 	margin-top: 9rem;
-}
+} */
 
 .hiw {
 	background: var(--white-color);
@@ -307,7 +309,8 @@ hr {
 		color: var(--inner);
 		font-weight: bold;
 	}
-	.judge-slide-mobile {
+
+	/* .judge-slide-mobile {
 		top: 90%;
 		left: 40%;
 	}
@@ -322,11 +325,11 @@ hr {
 	}
 	.judge-img4 {
 		width: 55%;
-	}
+	} */
 
-	.mt-9 {
+	/* .mt-9 {
 		margin-top: 12rem;
-	}
+	} */
 }
 
 @media all and (min-width: 768px) {
@@ -342,7 +345,7 @@ hr {
 	.hero-p {
 		font-size: 1rem;
 	}
-	.judge-slide-mobile {
+	/* .judge-slide-mobile {
 		top: 90%;
 		left: 40%;
 	}
@@ -357,10 +360,10 @@ hr {
 	}
 	.judge-img4 {
 		width: 40%;
-	}
-	.mt-9 {
+	} */
+	/* .mt-9 {
 		margin-top: 7rem;
-	}
+	} */
 
 	.work-text {
 		font-size: 2.5rem;
@@ -384,20 +387,23 @@ hr {
 		margin-top: 5rem;
 	}
 	.judge-slide {
-		top: 40%;
+		position: absolute;
+		top: 8.5%;
+		width: 100%;
+		text-align: center;
 	}
 
 	.judge-img1 {
-		width: 46%;
+		max-width: 30%;
 	}
 	.judge-img2 {
-		width: 48%;
+		max-width: 31%;
 	}
 	.judge-img3 {
-		width: 54%;
+		max-width: 34%;
 	}
 	.judge-img4 {
-		width: 49%;
+		max-width: 32%;
 	}
 	.nav-link {
 		padding: 0.3rem;
@@ -411,6 +417,9 @@ hr {
 	}
 	.inner-text {
 		color: var(--white-color);
+	}
+	.innertext {
+		font-weight: normal;
 	}
 	.subscribe-btn {
 		width: 50%;
@@ -447,12 +456,11 @@ hr {
 	}
 }
 
-/* @media all and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
 	.judge-slide {
-		width: 70%;
-		top: 45%;
+		top: 4.3%;
 	}
-} */
+}
 @media all and (min-width: 1400px) {
 	.nav-link {
 		padding: 0.5rem 1rem;
@@ -460,21 +468,21 @@ hr {
 	.work-text {
 		font-size: 3.5rem;
 	}
-	/* .judge-slide {
-		width: 60%;
-	} */
-	.judge-img1 {
-		width: 37%;
+	.judge-slide {
+		top: 6%;
+	}
+	/* .judge-img1 {
+		max-width: 30%;
 	}
 	.judge-img2 {
-		width: 38%;
+		max-width: 31%;
 	}
 	.judge-img3 {
-		width: 43%;
+		max-width: 34%;
 	}
 	.judge-img4 {
-		width: 40%;
-	}
+		max-width: 32%;
+	} */
 	.hero {
 		margin-bottom: 6rem;
 	}
@@ -486,7 +494,10 @@ hr {
 	.secondheader {
 		margin-left: 18rem !important;
 	}
-	.judge-img1 {
+	.judge-slide {
+		top: 9.5%;
+	}
+	/* .judge-img1 {
 		width: 27%;
 	}
 	.judge-img2 {
@@ -501,5 +512,5 @@ hr {
 	.judge-slide {
 		left: 45%;
 		top: 35%;
-	}
+	} */
 }
