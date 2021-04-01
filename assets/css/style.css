@@ -152,19 +152,20 @@ a:hover {
 	width: 60%;
 }
 .judge-slide-mobile {
-	top: 90%;
+	top: 85%;
+	left: 30%;
 }
 .judge-img1 {
-	width: 37%;
+	width: 70%;
 }
 .judge-img2 {
-	width: 38%;
+	width: 70%;
 }
 .judge-img3 {
-	width: 43%;
+	width: 80%;
 }
 .judge-img4 {
-	width: 40%;
+	width: 70%;
 }
 .web-card {
 	display: none;
@@ -172,7 +173,7 @@ a:hover {
 
 /*Hwo it works */
 .mt-9 {
-	margin-top: 3rem;
+	margin-top: 9rem;
 }
 
 .hiw {
@@ -306,8 +307,25 @@ hr {
 		color: var(--inner);
 		font-weight: bold;
 	}
+	.judge-slide-mobile {
+		top: 90%;
+		left: 40%;
+	}
+	.judge-img1 {
+		width: 55%;
+	}
+	.judge-img2 {
+		width: 55%;
+	}
+	.judge-img3 {
+		width: 60%;
+	}
+	.judge-img4 {
+		width: 55%;
+	}
+
 	.mt-9 {
-		margin-top: 7rem;
+		margin-top: 12rem;
 	}
 }
 
@@ -323,6 +341,25 @@ hr {
 
 	.hero-p {
 		font-size: 1rem;
+	}
+	.judge-slide-mobile {
+		top: 90%;
+		left: 40%;
+	}
+	.judge-img1 {
+		width: 37%;
+	}
+	.judge-img2 {
+		width: 38%;
+	}
+	.judge-img3 {
+		width: 43%;
+	}
+	.judge-img4 {
+		width: 40%;
+	}
+	.mt-9 {
+		margin-top: 7rem;
 	}
 
 	.work-text {
