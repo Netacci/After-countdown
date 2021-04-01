@@ -236,7 +236,7 @@ a:hover {
 /* FAQ */
 .faq-title {
 	color: var(--dark-blue-header);
-	font-size: 0.875rem;
+	font-size: 1.1rem;
 	font-weight: bold;
 }
 
@@ -297,9 +297,7 @@ hr {
 	.mt-8 {
 		margin-top: 4rem;
 	}
-	.faq-title {
-		font-size: 1.1rem;
-	}
+
 	/* .inner-text {
 		color: rgb(4, 15, 27);
 	} */
