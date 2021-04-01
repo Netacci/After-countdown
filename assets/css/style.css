@@ -230,6 +230,12 @@ a:hover {
 .hiw-detail {
 	color: var(--light-red);
 }
+.sectiontwo {
+	order: 2;
+}
+.work-detail {
+	order: 1;
+}
 
 /* FAQ */
 .faq-title {
@@ -376,6 +382,12 @@ hr {
 	}
 	.started {
 		background-size: cover;
+	}
+	.sectiontwo {
+		order: 1;
+	}
+	.work-detail {
+		order: 2;
 	}
 }
 
