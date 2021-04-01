@@ -151,6 +151,9 @@ a:hover {
 	top: 35%;
 	width: 60%;
 }
+.judge-slide-mobile {
+	top: 90%;
+}
 .judge-img1 {
 	width: 37%;
 }
@@ -166,7 +169,12 @@ a:hover {
 .web-card {
 	display: none;
 }
+
 /*Hwo it works */
+.mt-9 {
+	margin-top: 3rem;
+}
+
 .hiw {
 	background: var(--white-color);
 	padding: 1px;
@@ -298,6 +306,9 @@ hr {
 		color: var(--inner);
 		font-weight: bold;
 	}
+	.mt-9 {
+		margin-top: 7rem;
+	}
 }
 
 @media all and (min-width: 768px) {
@@ -338,6 +349,7 @@ hr {
 	.judge-slide {
 		top: 40%;
 	}
+
 	.judge-img1 {
 		width: 46%;
 	}
@@ -369,6 +381,9 @@ hr {
 
 	.web-card {
 		display: inline-block;
+	}
+	.mobile-card {
+		display: none;
 	}
 	.mt-8 {
 		margin-top: 5rem;
