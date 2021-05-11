@@ -139,7 +139,7 @@ font-size: 1.2rem;
 .hero-p-mobile{
 	font-size: 0.875rem;
 	width: 70%;
-	color: yellow;
+	
 }
 .hero-title-mobile{
 	font-size: 1.3rem;
@@ -329,22 +329,18 @@ hr {
 	
 		font-weight: bold;
 	}
-	.hero-p{
-		display: block;
-	}
-	.hero-title-sub{
-		display: block;
-	}
-	.hero-p-mobile{
-		display: none;
-	}
-	.hero-title-mobile{
-		display: none;
-	}
+
 	.header{
 		background-size: cover;
 	}
 	
+
+	.hero-p-mobile{
+		font-size: 1.1rem;
+	}
+	.hero-title-mobile{
+		font-size: 1.5rem;
+	}
 
 	/* .judge-slide-mobile {
 		top: 90%;
@@ -373,14 +369,7 @@ hr {
 		width: 30%;
 	}
 
-	.hero-title,
-	.hero-title-sub {
-		font-size: 2.5rem;
-	}
-
-	.hero-p {
-		font-size: 1rem;
-	}
+	
 	/* .judge-slide-mobile {
 		top: 90%;
 		left: 40%;
@@ -421,11 +410,26 @@ hr {
 	}
 	.hero-p {
 		/* margin-left: 5rem; */
-		font-size: 1.5rem;
+		font-size: 1rem;
 		width: 60%;
+		display: block;
+	}
+	
+	
+	.hero-title-sub{
+		display: block;
+		font-size: 2rem;
 	}
 	.hero-title{
 		line-height: 56px;
+		
+		
+	}
+	.hero-p-mobile{
+		display: none;
+	}
+	.hero-title-mobile{
+		display: none;
 	}
 
 	/* .secondheader {
@@ -433,7 +437,7 @@ hr {
 	} */
 	.judge-slide {
 		position: absolute;
-		top: 9.8%;
+		top: 3%;
 		width: 100%;
 		text-align: center;
 	}
@@ -456,10 +460,7 @@ hr {
 	.brand-logo {
 		width: 22%;
 	}
-	.hero-title,
-	.hero-title-sub {
-		font-size: 3rem;
-	}
+	
 	
 	.subscribe-btn {
 		width: 50%;
@@ -498,7 +499,13 @@ hr {
 
 @media all and (min-width: 1200px) {
 	.judge-slide {
-		top: 7.4%;
+		top: 1.5%;
+	}
+	.hero-p{
+		font-size: 1.2rem;
+	}
+	.hero-title-sub{
+		font-size: 2.5rem;
 	}
 }
 @media all and (min-width: 1400px) {
@@ -508,8 +515,14 @@ hr {
 	.work-text {
 		font-size: 3.5rem;
 	}
+	.hero-p{
+		font-size: 1.4rem;
+	}
+	.hero-title-sub{
+		font-size: 2.5rem;
+	}
 	.judge-slide {
-		top: 6.5%;
+		top: 3.5%;
 	}
 	/* .judge-img1 {
 		max-width: 30%;
